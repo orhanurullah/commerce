@@ -1,0 +1,84 @@
+body{
+    /* background-image: url("header.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+}
+header{
+  padding-top: 20px;
+  text-align: center;
+  line-height: 0;
+}
+nav > ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li{
+    padding:0 20px 0 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    border-radius: 5px;
+    background-color: brown;
+    padding:5px;
+}
+article{
+    text-align: center;
+}
+article > ul{
+    list-style-position: inside;
+    list-style-type: none;
+    background-color: mediumblue;
+}
+article > ul > li{
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+article > ul > li > a{
+    color:white;
+}
+article > h2{
+    color:red;
+    font-weight: bold;
+    font-size: 2em;
+}
+.product-list{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.product-list > li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.buy-button{
+    background-color: brown;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    padding:15px;
+    font-size: 1em;
+}
+.price{
+    background-color: lightgreen;
+    border-radius: 8px;
+    padding:5px;
+    color:brown;
+}
+.product-list > li{
+    width: 90%;
+    border-bottom: 3px solid greenyellow;
+    padding-bottom: 15px;
+}
+.buy-button:hover{
+    color:darkmagenta;
+    background-color: darkolivegreen;
+}
+footer{
+    text-align: center;
+}
